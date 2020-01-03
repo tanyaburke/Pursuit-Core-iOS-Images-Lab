@@ -39,19 +39,19 @@ extension UIImageView {
         }
     }
 
-//
-//static func comicImage(comicImage: String, completion: @escaping (Result<UIImage, AppError>) -> ()) {
-//
-//    NetworkHelper.shared.performDataTask(urlString: comicImage) { (result) in
-//        switch result {
-//        case .failure(let imageError):
-//            completion(.failure(imageError))
-//        case .success(let data):
-//            let imageFromData = UIImage(data: data)
-//            completion(.success(imageFromData!))
-//        }
-//    }
-//
-//}
+
+static func comicImage(comicImage: String, completion: @escaping (Result<UIImage, AppError>) -> ()) {
+
+    NetworkHelper.shared.performDataTask(urlString: comicImage) { (result) in
+        switch result {
+        case .failure(let imageError):
+            completion(.failure(imageError))
+        case .success(let data):
+            let imageFromData = UIImage(data: data)
+            completion(.success(imageFromData!))
+        }
+    }
+
+}
 
 }

@@ -12,6 +12,11 @@
 		2E1FE91723A3C04E00C1EC60 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE91623A3C04E00C1EC60 /* PokemonModel.swift */; };
 		2E1FE91923A3D6E300C1EC60 /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE91823A3D6E300C1EC60 /* PokemonAPI.swift */; };
 		2E1FE91D23A4337600C1EC60 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE91C23A4337600C1EC60 /* DetailViewController.swift */; };
+		2E1FE91F23A581C500C1EC60 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE91E23A581C500C1EC60 /* UserViewController.swift */; };
+		2E1FE92123A581ED00C1EC60 /* UserDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE92023A581ED00C1EC60 /* UserDetailController.swift */; };
+		2E1FE92323A5820C00C1EC60 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE92223A5820C00C1EC60 /* UserCell.swift */; };
+		2E1FE92523A5864F00C1EC60 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE92423A5864F00C1EC60 /* UserAPI.swift */; };
+		2E1FE92723A5867400C1EC60 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FE92623A5867400C1EC60 /* UserModel.swift */; };
 		2E8155C4239FF36F003F2126 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8155C3239FF36F003F2126 /* UIImageView+extension.swift */; };
 		2E8BD149239EDCDC00B8F7F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BD148239EDCDC00B8F7F3 /* AppDelegate.swift */; };
 		2E8BD14B239EDCDC00B8F7F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BD14A239EDCDC00B8F7F3 /* SceneDelegate.swift */; };
@@ -44,6 +49,11 @@
 		2E1FE91623A3C04E00C1EC60 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 		2E1FE91823A3D6E300C1EC60 /* PokemonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
 		2E1FE91C23A4337600C1EC60 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2E1FE91E23A581C500C1EC60 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		2E1FE92023A581ED00C1EC60 /* UserDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailController.swift; sourceTree = "<group>"; };
+		2E1FE92223A5820C00C1EC60 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		2E1FE92423A5864F00C1EC60 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		2E1FE92623A5867400C1EC60 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		2E8155C3239FF36F003F2126 /* UIImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
 		2E8BD145239EDCDC00B8F7F3 /* ImagesLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagesLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8BD148239EDCDC00B8F7F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,9 +116,9 @@
 				2ECA8044239FF0090039F331 /* AppError.swift */,
 				2ECA8042239FEFCC0039F331 /* NetworkHelper.swift */,
 				2EE4C35723A2E80200F45912 /* ViewController + extension.swift */,
-				2E8155C3239FF36F003F2126 /* UIImageView+extension.swift */,
 				2EBC0B3223A0470800F357A8 /* ComicAPI.swift */,
 				2E8BD14C239EDCDC00B8F7F3 /* ViewController.swift */,
+				2E8155C3239FF36F003F2126 /* UIImageView+extension.swift */,
 				2EBC0B3623A04FE700F357A8 /* ComicNumberFile.swift */,
 				2EBC0B3423A0484F00F357A8 /* ComicModel.swift */,
 				2E1FE91223A3BB3900C1EC60 /* PokemonViewController.swift */,
@@ -116,6 +126,11 @@
 				2E1FE91423A3BC3300C1EC60 /* PokemonTableViewCell.swift */,
 				2E1FE91623A3C04E00C1EC60 /* PokemonModel.swift */,
 				2E1FE91C23A4337600C1EC60 /* DetailViewController.swift */,
+				2E1FE92623A5867400C1EC60 /* UserModel.swift */,
+				2E1FE92423A5864F00C1EC60 /* UserAPI.swift */,
+				2E1FE91E23A581C500C1EC60 /* UserViewController.swift */,
+				2E1FE92023A581ED00C1EC60 /* UserDetailController.swift */,
+				2E1FE92223A5820C00C1EC60 /* UserCell.swift */,
 				2E8BD148239EDCDC00B8F7F3 /* AppDelegate.swift */,
 				2E8BD14A239EDCDC00B8F7F3 /* SceneDelegate.swift */,
 				2E8BD151239EDCDE00B8F7F3 /* Assets.xcassets */,
@@ -237,7 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECA8043239FEFCC0039F331 /* NetworkHelper.swift in Sources */,
+				2E1FE91F23A581C500C1EC60 /* UserViewController.swift in Sources */,
 				2E1FE91723A3C04E00C1EC60 /* PokemonModel.swift in Sources */,
+				2E1FE92523A5864F00C1EC60 /* UserAPI.swift in Sources */,
+				2E1FE92323A5820C00C1EC60 /* UserCell.swift in Sources */,
 				2E8BD14D239EDCDC00B8F7F3 /* ViewController.swift in Sources */,
 				2E1FE91323A3BB3900C1EC60 /* PokemonViewController.swift in Sources */,
 				2EBC0B3723A04FE700F357A8 /* ComicNumberFile.swift in Sources */,
@@ -248,8 +266,10 @@
 				2EBC0B3523A0484F00F357A8 /* ComicModel.swift in Sources */,
 				2E1FE91923A3D6E300C1EC60 /* PokemonAPI.swift in Sources */,
 				2E1FE91523A3BC3300C1EC60 /* PokemonTableViewCell.swift in Sources */,
+				2E1FE92123A581ED00C1EC60 /* UserDetailController.swift in Sources */,
 				2E1FE91D23A4337600C1EC60 /* DetailViewController.swift in Sources */,
 				2E8155C4239FF36F003F2126 /* UIImageView+extension.swift in Sources */,
+				2E1FE92723A5867400C1EC60 /* UserModel.swift in Sources */,
 				2E8BD14B239EDCDC00B8F7F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
