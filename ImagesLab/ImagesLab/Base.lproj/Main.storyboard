@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CxR-kL-Ila">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CxR-kL-Ila">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -291,6 +291,7 @@
                     <connections>
                         <segue destination="qNw-ie-kwW" kind="relationship" relationship="viewControllers" id="AGy-c2-Bzt"/>
                         <segue destination="6dk-1m-e9U" kind="relationship" relationship="viewControllers" id="j7c-Q6-W16"/>
+                        <segue destination="FaS-rf-2mG" kind="relationship" relationship="viewControllers" id="Md0-Qr-F8t"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4p-uK-TEB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -314,12 +315,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TPf-Iq-jAR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700.0000000000002" y="785.49107142857144"/>
+            <point key="canvasLocation" x="1671" y="787"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Users-->
         <scene sceneID="gip-r3-NyO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FaS-rf-2mG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Users" id="XIz-Fa-yKG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2UB-rB-t4P">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -332,7 +334,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SbH-Hh-858" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616" y="1392"/>
+            <point key="canvasLocation" x="1722" y="1456"/>
         </scene>
     </scenes>
 </document>
